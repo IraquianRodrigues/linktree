@@ -53,12 +53,14 @@ button {
 }
 
 #profile p {
-  font-size: 14px;
-  color: #666;
+  font-size: 0.9rem; /* Tamanho menor e discreto */
+  color: #888; /* Cor neutra e suave */
+  font-style: italic; /* Estilo itálico para elegância */
+  text-align: center;
   margin-top: 5px;
+  opacity: 0.8;
 }
 
-  
   /* links */
   ul {
     max-width: 500px;
@@ -71,8 +73,6 @@ button {
     
   }
 
-  
-  
   ul li a {
   display: flex;
   align-items: center;
