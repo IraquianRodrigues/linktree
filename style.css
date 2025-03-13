@@ -8,6 +8,19 @@
     font-family: "Inter", sans-serif;
     color: #fff;
   }
+
+  body.dark-theme {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
   
   body {
     background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
@@ -48,18 +61,20 @@
   
   /* links */
   ul {
+    max-width: 500px;
     list-style: none;
     display: flex;
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
     margin-bottom: 40px; /* Adiciona espaçamento no final */
+    
   }
 
   
   
   ul li a {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   background: #9400d3;
@@ -70,6 +85,7 @@
   font-size: 16px;
   font-weight: 500;
   transition: background 0.3s, transform 0.2s ease-in-out;
+  
   }
   
   ul li a:hover {
@@ -115,14 +131,15 @@ ul li a:hover ion-icon {
     margin-right: 8px; /* Espaço entre o ícone e o texto */
   }
   
-    footer#ira {
-          padding: 20px;
-          text-align: center; /* Texto centralizado */
-          font-family: Arial, sans-serif; /* Fonte do texto */
-        }
-  
-        footer#ira p {
-          margin: 0; /* Remove margens padrão */
-          font-size: 18px; /* Ajuste do tamanho da fonte */
-          color: #fff; /* Cor do texto */
-        }
+  footer#ira {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 10px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+}
+
+footer#ira:hover {
+  opacity: 1;
+}
