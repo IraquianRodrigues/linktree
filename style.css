@@ -60,7 +60,7 @@ button {
   margin-top: 5px;
   opacity: 0.8;
 }
-<<<<<<< HEAD
+
 ul {
   max-width: 500px;
   list-style: none;
@@ -73,22 +73,6 @@ ul {
 }
 
 ul li a {
-=======
-
-  /* links */
-  ul {
-    max-width: 500px;
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    padding: 24px 0;
-    margin-bottom: 40px; /* Adiciona espaçamento no final */
-    
-  }
-
-  ul li a {
->>>>>>> f381777a54962a3dd7f91fdf3f0c4499155aa611
   display: flex;
   align-items: center;
   justify-content: center;
@@ -100,7 +84,6 @@ ul li a {
   font-size: 16px;
   font-weight: 500;
   transition: background 0.3s, transform 0.2s ease-in-out;
-<<<<<<< HEAD
 }
 
 ul li a:hover {
@@ -114,14 +97,11 @@ ul li a ion-icon {
   transition: transform 0.5s ease-in-out;
 }
 
-=======
-  
-  }
-  
-  ul li a:hover {
+
+ul li a:hover {
     background: #4b0082;
     transform: scale(1.05); /* Aumenta levemente o botão */
-  }
+ }
 
   ul li a ion-icon {
   margin-right: 8px;
@@ -132,8 +112,6 @@ ul li a:hover ion-icon {
   transform: rotate(10deg) scale(1.2); /* Ícone gira levemente e aumenta */
 }
 
-  
->>>>>>> f381777a54962a3dd7f91fdf3f0c4499155aa611
   /* social links */
   #social-links {
     display: flex;
@@ -149,11 +127,7 @@ ul li a:hover ion-icon {
     padding: 16px;
     border-radius: 50%;
     transition: background 0.2s;
-<<<<<<< HEAD
     transition: transform 0.3s ease-in-out;
-=======
-
->>>>>>> f381777a54962a3dd7f91fdf3f0c4499155aa611
   }
   
  #social-links a:hover {
@@ -178,7 +152,6 @@ ul li a:hover ion-icon {
 footer#ira:hover {
   opacity: 1;
 }
-<<<<<<< HEAD
 
 .modal {
   display: none; /* Começa oculto */
@@ -223,5 +196,5 @@ footer#ira:hover {
   text-decoration: none;
   cursor: pointer;
 }
-=======
->>>>>>> f381777a54962a3dd7f91fdf3f0c4499155aa611
+
+
