@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peça+Açaí</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./assets/novo.png" type="image/x-icon">
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="profile">
+    <img src="./assets/novo.png" alt="Iraquian Rodrigues, fundador do Peça+Açaí">
+    <p>Quem prova, sempre pede mais!💜</p>
+  </div>
+  
+  <ul>
+    <li><a href="https://pecamaisacai.viicio.com.br/index" id="menu-link"><ion-icon name="restaurant-outline"></ion-icon> Cardápio digital</a></li>
+    <li><a href="https://www.google.com/maps/place/Av.+Gaga%C3%A7a+Lopes,+81+-+Alto+do+Sumar%C3%A9,+Mossor%C3%B3+-+RN" target="_blank"><ion-icon name="location-outline"></ion-icon> Localização</a></li>
+    <li><a href="https://wa.me/5584994543066?text=Oi%2C%20tudo%20bem%3F%20Gostaria%20de%20fazer%20um%20pedido%2C%20por%20favor%21" target="_blank"><ion-icon name="logo-whatsapp"></ion-icon> WhatsApp</a></li>
+  </ul>
+  
+  <div id="social-links">
+    <a href="https://github.com/IraquianRodrigues" target="_blank" aria-label="GitHub"><ion-icon name="logo-github"></ion-icon></a>
+    <a href="https://www.instagram.com/iraquianrodrigues" target="_blank" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+    <a href="https://www.linkedin.com/in/iraquiamrodrigues/" target="_blank" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+  </div>
+  
+  <footer id="ira">
+    <p>Feito com 💜 Iraquian Rodrigues - <span id="year"></span></p>
+  </footer>
+
+  <!-- Modal para exibir a imagem do cardápio -->
+  <div id="menu-modal" class="modal">
+    <div class="modal-content">
+      <span id="close" class="close">&times;</span>
+      <img src="assets/cardapio.jpg" alt="Cardápio Digital" id="menu-image">
+    </div>
+  </div>
+  
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
