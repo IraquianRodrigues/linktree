@@ -44,60 +44,87 @@
     padding: 24px 0;
   }
   
-  ul li a {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px 24px;
-    border-radius: 8px;
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
-    text-decoration: none;
-    font-weight: 500;
-    transition: background 0.2s;
-  }
-  
-  ul li a:hover {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1.5px solid #fff;
-  }
+ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  background-color: #8e44ad;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+ 
+ ul li a:hover {
+  background-color: #a569bd;
+  transform: scale(1.05);
+}
+
+ul li ion-icon {
+  font-size: 1.5rem;
+}
   
   /* social links */
-  #social-links {
-    display: flex;
-    padding: 24px 0;
-    font-size: 24px;
-    justify-content: center;
-  }
+#social-links {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
   
-  #social-links a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 16px;
-    border-radius: 50%;
-    transition: background 0.2s;
-  }
+#social-links a {
+  color: #ccc; /* cinza claro */
+  font-size: 1.8rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
   
-  #social-links a:hover {
-    background: rgba(255, 255, 255, 0.2);
-  }
+
+#social-links a:hover {
+  transform: scale(1.25);
+  color: #ffffff; /* ou uma cor personalizada para cada rede social */
+}
   
   ion-icon {
     font-size: 24px; /* Ajuste o tamanho do ícone */
     margin-right: 8px; /* Espaço entre o ícone e o texto */
   }
   
-    footer#ira {
-          padding: 20px;
-          text-align: center; /* Texto centralizado */
-          font-family: Arial, sans-serif; /* Fonte do texto */
-        }
-  
-        footer#ira p {
-          margin: 0; /* Remove margens padrão */
-          font-size: 18px; /* Ajuste do tamanho da fonte */
-          color: #fff; /* Cor do texto */
-        }
+footer#ira {
+  margin-top: 3rem;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #b0b0b0; /* cinza claro */
+}
+
+footer#ira p {
+  margin: 0;
+  letter-spacing: 0.3px;
+  font-size: 20px
+}
+
+.slogan {
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  color: #d6d6d6; /* cinza claro elegante */
+  font-style: italic;
+  font-weight: 500;
+}
+
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #1a001f; /* fundo escuro estilo açaí */
+  z-index: -1;
+}
+
+a {
+  touch-action: manipulation;
+}
+
+
+
