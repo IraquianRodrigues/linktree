@@ -9,16 +9,12 @@
     color: #fff;
   }
   
-  body {
-    background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
-  }
-  
-  #container {
-    width: 100%;
-    max-width: 588px;
-    margin: 56px auto 0px;
-    padding: 0 24px;
-  }
+ #container {
+  width: 100%;
+  max-width: 588px;
+  margin: 5vh auto 0;
+  padding: 0 24px;
+}
   
   #profile {
     text-align: center;
@@ -66,6 +62,11 @@ ul li a {
 ul li ion-icon {
   font-size: 1.5rem;
 }
+
+ul li a:focus {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
   
   /* social links */
 #social-links {
@@ -101,9 +102,11 @@ footer#ira {
 }
 
 footer#ira p {
-  margin: 0;
-  letter-spacing: 0.3px;
-  font-size: 20px
+  margin-top: 0.8rem;
+  font-size: 1rem;
+  color: #d6d6d6; /* cinza claro elegante */
+  font-style: italic;
+  font-weight: 500;
 }
 
 .slogan {
@@ -126,5 +129,22 @@ a {
   touch-action: manipulation;
 }
 
+#social-links a.instagram:hover {
+  color: #e1306c;
+}
+#social-links a.linkedin:hover {
+  color: #0077b5;
+}
+#social-links a.github:hover {
+  color: #333;
+}
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a001f;
+  }
+  ul li a {
+    background-color: #732d91;
+  }
+}
 
