@@ -22,7 +22,12 @@
   }
   
   #profile img {
-    width: 112px;
+  width: 120px;
+  height: 120px;
+  border: 2px solid #a259ff; /* um roxo mais vibrante */
+  border-radius: 50%; /* deixa redondo */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); /* sombra um pouco mais visível */
+  object-fit: cover; /* garante que a imagem preencha o círculo */
   }
   
   #profile p {
@@ -38,6 +43,8 @@
     flex-direction: column;
     gap: 16px;
     padding: 24px 0;
+    width: 50%;
+    margin: 0 auto;
   }
   
 ul li a {
